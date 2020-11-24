@@ -1,32 +1,52 @@
-h1{
-    color:red;
-    text-align: left;
-    padding-bottom: 30px;
-    background-color: #C4C4C4;
-    font-size: 36px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    
- 
+h1 {
+  color: red;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top:20px;
+  background-color: #fdd9d9;
+  font-size: 36px;
+  background-image: url("images/logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .nav {
-    color: #F40909;
-    background-color: #FDD9D9;
-    font-size: 12px;
-    float: right;
-    width: 100%;
-    font-weight: bold;
-    
+  color: #f40909;
+  background-color: #fdd9d9;
+  font-size: 12px;
+  float: right;
+  width: 100%;
+  font-weight: bold;
+  /* position: fixed; */
 }
+
+.nav li {
+  display: inline;
+  font-size: 20px;
+  padding: 20px;
+  color: red;
+  float: right;
+  text-decoration: none;
+}
+a:link {
+  text-decoration: none;
+}
+img{
+    width: min-content;
+    height:min-content;
+    float: left;
+}
+p{
+    font-size: 18px;
+}
+.footer{
+    background-position: center;
+    background-color: rgb(233, 227, 227);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;    
+    text-align: center;
+    color:#FB08B7;
     
-.nav li{
-        display: inline;
-        font-size: 20px;
-        padding: 20px;
-        color: red;
-        float: right;
-        text-decoration: none;
-    }
-a:link{
-    text-decoration:none;
 }
