@@ -1,0 +1,35 @@
+body{
+    background-color: #222831;
+    font-family: roboto;
+    color: #FFFEFE;
+}
+
+.head{
+    text-align: center;
+}
+
+.sub{
+    text-align: center; 
+}
+
+.p1{
+    text-align: center;
+    column-count: 1; 
+    margin-left: 15em;
+    margin-right: 15em;
+    line-height: 2em;
+}
+
+.mission{
+    text-align: center;
+    column-count: 1; 
+    margin-left: 15em;
+    margin-right: 15em;
+    line-height: 2em;
+}
+
+
+/* .head{ */
+    /* color: black; */
+    /* text-align: center; */
+/* } */
