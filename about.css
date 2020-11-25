@@ -20,6 +20,14 @@ body{
     line-height: 2em;
 }
 
+.mission{
+    text-align: center;
+    column-count: 1; 
+    margin-left: 15em;
+    margin-right: 15em;
+    line-height: 2em;
+}
+
 
 /* .head{ */
     /* color: black; */
