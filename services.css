@@ -6,6 +6,8 @@ width: 764px;
 height: 276px;
 
 background: url(images/spares13.jpg);
+background-size: cover;
+background-repeat: no-repeat;
 mix-blend-mode: multiply;
 border-radius: 7px;
 /* CHANGAMKA AUTOSPARES LTD */
@@ -34,6 +36,7 @@ left: 77.94px;
 top: 0.59px;
 
 background: url(images/spares3.jpeg);
+background-size: contain;
 opacity: 0.7;
 border: 1px solid #000000;
 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -62,12 +65,11 @@ mix-blend-mode: darken;
 transform: rotate(0.5deg);
 
 }
-#body{
-  /* The following products are available at our Changamka autospares enterprises; 1. Cooling systems. 15. Fuel Pumps. 2. Suspension Parts. 16. Clutch Plates. 3. Braking Systems. 17. Pressure plates. 4. Gearboxes. 18. Fenders. 5. Engines. 19. Bonnets. 6. Body parts. 20. Radiators. 7. Ball Joints. 21. Ignition Plugs. 8. Belts. 22. Seat covers. 9. Oil pumps. 23. Mountings. 10. Tires. 24. Bushes & Shock pads. 11. Filters. 25. CV joints. 12. Bearings. 26. Shock absorbers. 13. Disks and Hubs. 27. Lubricants & Batteries. 14. Rubber Boots. */
 
+#body{
 position: absolute;
-width: 621px;
-height: 395px;
+width: 1000px;
+height:1000px;
 left: 52.46px;
 top: 0px;
 
@@ -75,7 +77,7 @@ font-family: Noto Serif;
 font-style: italic;
 font-weight: bold;
 font-size: 18px;
-line-height: 25px;
+line-height: 50px;
 display: flex;
 align-items: center;
 
@@ -86,7 +88,7 @@ transform: rotate(0.05deg);
 /* Rectangle 2 */
 
 position: absolute;
-width: 788.47px;
+width: 1000px;
 height: 1300px;
 left: 9.52px;
 
@@ -97,4 +99,40 @@ transform: rotate(0.5deg);
 #list1{
     text-align: left;
     padding: 70px;
+}
+#list2{
+    text-align: center;
+}
+#services{
+    /* Rectangle 3 */
+padding: 50px;
+padding-top: 100px;
+position: absolute;
+width: 728px;
+height: 389px;
+left: 46.47px;
+top: 626.34px;
+
+background: url(images/spares2.jpeg);
+background-repeat: no-repeat;
+background-size: contain;
+transform: rotate(0.5deg);
+
+position: absolute;
+width: 500px;
+height: 500px;
+left: 57.43px;
+top: 730.44px;
+
+font-family: Noto Serif;
+font-style: italic;
+font-weight: bold;
+font-size: 18px;
+line-height: 25px;
+align-items: center;
+
+color: #380606;
+
+transform: rotate(0.5deg);
+
 }
