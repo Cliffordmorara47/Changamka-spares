@@ -1,8 +1,17 @@
+body {
+  background-image: url("https://wallpaperset.com/w/full/8/6/e/396482.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  overflow-x: hidden;
+  
+}
 h1 {
   color: blue;
   text-align: center;
-  padding-bottom: 20px;
-  padding-top: 20px;
+  padding-bottom: 15px;
   font-size: 36px;
   background-image: url("images/logo.png");
   background-size: contain;
@@ -10,7 +19,7 @@ h1 {
   background-position: center;
   display: inline;
 }
-.nav {
+nav {
   color: blue;
   background-color: #fdd9d9;
   font-size: 12px;
@@ -20,12 +29,13 @@ h1 {
   position: fixed top;
 }
 
-.nav li {
+nav li {
   display: inline;
   font-size: 20px;
   padding: 20px;
   float: right;
   text-decoration: none;
+  color: blue;
 }
 a:link {
   text-decoration: none;
@@ -37,19 +47,15 @@ p {
 }
 .footer {
   background-position: center;
-  background-color: #fdd9d9;
+  background-color: #f0b3b3;
   position: fixed;
   left: 0;
   bottom: 0;
+  right: 0;
   width: 100%;
   text-align: center;
   color: blue;
+  padding-top: 10px;
+  
 }
-body {
-  background-image: url("images/background.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: white;
-  text-align: center;
-  font-size: 18px;
-}
+
