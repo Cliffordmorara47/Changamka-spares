@@ -7,11 +7,10 @@
     <link rel="stylesheet" href="services.css">
 </head>
 <body>
-    <h1>CHANGAMKA AUTOSPARES LTD </h1>
-    <h2>Products and services</h2>
+    <h1>Products & Services</h1>
+    <h2>Products</h2>
     <div id="body">
-            <h3>Autospares</h3>
-            <p>
+            <h3>The following list of spare-parts are available at our station;</h3>
             <ul id="list1">
                 <li>Cooling Systems.</li>
                 <li>Suspension Parts</li>
@@ -28,6 +27,9 @@
                 <li>Disks & Hubs</li>
                 <li>Rubber Boots.</li>
             </ul>
+            <img src="images/autospares1.jpeg" alt="autospares">
+            <img src="images/spares3.jpeg" alt="car parts">
+            <img src="images/spares4.jpeg" alt="autospares">
             <ul id="list2">
                 <li>Fel Pumps.</li>
                 <li>Fuel Pumps.</li>
@@ -44,18 +46,101 @@
                 <li>Shock Absorbers</li>
                 <li>Lubricants & Batteries</li>
             </ul>
-        </p>
+            <img src="images/spares5.jpeg" alt="Car Engine">
+            <img src="images/spares6.jpeg" alt="Rear lights">
+            <img src="images/spares7.jpeg" alt="windscreen">
+            <img src="images/spares10.jpeg" alt="Tires">
  </div>
  <div id="services">
-    <h3>Services we offer</h3>
+    <h2>Services</h2>
     <p> We provide the following services  at our autospares enterprises;</p>
     <ul>
-        <li>We offer a wide range of products which are not easily found in other spareparts shops.</li>
+        <li>Prompt Delivery of ordered products.</li>
         <li>Better quality items that are long-lasting.</li>
         <li>Better value items.</li>
         <li>Towing broke down vehicles.</li>
         <li>Technicians services.</li>
+        <li>We also offer a wide range of products which are not easily found in other spareparts shops.</li>
     </ul>
  </div>
+ <div id="form">
+    <div id="ans">
+      <div id="container">
+        <form action="/action_page.php">
+  
+          <div class="form">
+            <div class="break">
+              <h3>Payment Sheet</h3>
+              <label for="name"><i class="name"></i> Full Name</label>
+              <input type="text" id="name" name="firstname" placeholder="Gideon Ole Sigilai">
+              <label for="email"><i class="email"></i> Email</label>
+              <input type="text" id="email" name="email" placeholder="olesigilai56@gmail.com">
+              <label for="adress"><i class="adress"></i> Address</label>
+              <input type="text" id="adress" name="address" placeholder="55th street Congo road">
+              <label for="city"><i class="city"></i> City</label>
+              <input type="text" id="city" name="city" placeholder="Nairobi">
+  
+              <div class="form">
+                <div class="break">
+                  <label for="state">Country</label>
+                  <input type="text" id="country" name="country" placeholder="Kenya">
+                </div>
+                </div>
+            </div>
+  
+            <div class="break">
+              <h3>Payment</h3>
+              <label for="name">Cards Accepted</label>
+              <div class="icon">
+                <i class="visa" style="color:navy;"></i>
+                <i class="amex" style="color:blue;"></i>
+                <i class="mastercard" style="color:red;"></i>
+                <i class="discover" style="color:orange;"></i>
+              </div>
+              <label for="cname">Name on Card</label>
+              <input type="text" id="cname" name="cardname" placeholder="Gideon Ole Sigilai">
+              <label for="ccnum">Credit card number</label>
+              <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+              <label for="expmonth">Expiry Month</label>
+              <input type="text" id="expmonth" name="expmonth" placeholder="January">
+  
+              <div class="form">
+                <div class="break">
+                  <label for="expyear">Expiry Year</label>
+                  <input type="text" id="expyear" name="expyear" placeholder="2021">
+                </div>
+                <div class="break">
+                  <label for="cvv">CVV</label>
+                  <input type="text" id="cvv" name="cvv" placeholder="176">
+                </div>
+              </div>
+            </div>
+  
+          </div>
+          <label>
+            <input type="checkbox" checked="checked" name="sameadress"> Delivering to adress in payment Sheet
+          </label>
+          <input type="submit" value="Continue to checkout" class="deliv">
+        </form>
+      </div>
+    </div>
+  
+    <div id="column">
+      <div class="container">
+        <h4>Cart
+          <span class="price" style="color:black">
+            <i class="shopping-cart"></i>
+            <b>4</b>
+          </span>
+        </h4>
+        <p><a href="#">Product 1</a> <span class="price">Ksh. 5,500</span></p>
+        <p><a href="#">Product 2</a> <span class="price">Ksh. 3,450</span></p>
+        <p><a href="#">Product 3</a> <span class="price">Ksh. 7,200</span></p>
+        <p><a href="#">Product 4</a> <span class="price">Ksh. 12,200</span></p>
+        <hr>
+        <p>Total <span class="price" style="color:black"><b>Ksh. 28,350</b></span></p>
+      </div>
+    </div>
+  </div>
 </body>
 </html>

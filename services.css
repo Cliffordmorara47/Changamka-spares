@@ -1,129 +1,33 @@
 h1{
-/* spares13 1 */
-
-position: absolute;
-width: 764px;
-height: 276px;
-
-background: url(images/spares13.jpg);
-background-size: cover;
-background-repeat: no-repeat;
-mix-blend-mode: multiply;
-border-radius: 7px;
-/* CHANGAMKA AUTOSPARES LTD */
-
-position: absolute;
-width: 743px;
-height: 65px;
-
-font-family: Noto Serif;
-font-style: italic;
-font-weight: normal;
-font-size: 48px;
-line-height: 65px;
-display: flex;
-align-items: center;
-
-color: #EE1D1D;
+    font-style: italic;
+    padding: 20px;
+    padding-left: 50px;
+    background-image: url("images/autospares2.jpeg");
+    background-size: contain;
+    background-repeat: repeat-x;
+    color: red;
+}
+p{
+    color: black;
+    font-size: 20px;
 }
 h2{
-    /* Rectangle 1 */
-
-position: absolute;
-width: 670px;
-height: 226px;
-left: 77.94px;
-top: 0.59px;
-
-background: url(images/spares3.jpeg);
-background-size: contain;
-opacity: 0.7;
-border: 1px solid #000000;
-box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 52px;
-transform: rotate(0.5deg);
-/* Products & Services */
-
-position: absolute;
-width: 595px;
-height: 175px;
-left: 15.56px;
-top: 44.05px;
-
-font-family: Noto Serif;
-font-style: italic;
-font-weight: 300;
-font-size: 48px;
-line-height: 65px;
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #063016;
-
-mix-blend-mode: darken;
-transform: rotate(0.5deg);
-
+    text-size-adjust: 20px;
+    padding-left: 50px;
+    text-decoration: underline;
+    color: black;
+    font-style: italic;
 }
-
-#body{
-position: absolute;
-width: 1000px;
-height:1000px;
-left: 52.46px;
-top: 0px;
-
+#services{
 font-family: Noto Serif;
 font-style: italic;
 font-weight: bold;
-font-size: 18px;
-line-height: 50px;
-display: flex;
-align-items: center;
-
+font-size: 17px;
+line-height: 25px;
 color: #380606;
 
-mix-blend-mode: darken;
-transform: rotate(0.05deg);
-/* Rectangle 2 */
-
-position: absolute;
-width: 1000px;
-height: 1300px;
-left: 9.52px;
-
-background: #C4C4C4;
-transform: rotate(0.5deg);
-
 }
-#list1{
-    text-align: left;
-    padding: 70px;
-}
-#list2{
-    text-align: center;
-}
-#services{
-    /* Rectangle 3 */
-padding: 50px;
-padding-top: 100px;
-position: absolute;
-width: 728px;
-height: 389px;
-left: 46.47px;
-top: 626.34px;
-
-background: url(images/spares2.jpeg);
-background-repeat: no-repeat;
-background-size: contain;
-transform: rotate(0.5deg);
-
-position: absolute;
-width: 500px;
-height: 500px;
-left: 57.43px;
-top: 730.44px;
-
+#body{
 font-family: Noto Serif;
 font-style: italic;
 font-weight: bold;
@@ -133,6 +37,88 @@ align-items: center;
 
 color: #380606;
 
-transform: rotate(0.5deg);
+
 
 }
+#form{
+    display: -ms-flexbox; 
+    display: flex;
+    -ms-flex-wrap: wrap; 
+    flex-wrap: wrap;
+    margin: 0 -16px;
+    padding-top: 30px;
+  }
+  
+  #column {
+    -ms-flex: 25%; 
+    flex: 25%;
+    padding: 0 20px;
+  }
+  
+  #break {
+    -ms-flex: 50%; 
+    flex: 50%;
+    padding: 0 20px;
+  }
+  
+  #ans {
+    -ms-flex: 75%; 
+    flex: 75%;
+    padding: 0 20px;
+  }
+  .container {
+    background-color: #918d8d;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+  }
+  
+  input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .icon {
+    margin-bottom: 20px;
+    padding: 10px 0;
+    font-size: 26px;
+  }
+  
+  .deliv {
+    background-color: #4CAF50;
+    color: rgb(233, 219, 219);
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .deliv:hover {
+    background-color: #45a049;
+  }
+  
+  .price {
+    float: right;
+    color: rgb(110, 6, 6);
+  }
+  
+  
+  @media (max-width: 800px) {
+    .row {
+      flex-direction: column-reverse;
+    }
+    #column {
+      margin-bottom: 20px;
+    }
+  }
