@@ -1,0 +1,70 @@
+.first{
+    /* background-color:gainsboro; */
+    width: 100%;
+    /* margin: -1rem; */
+    font-family: roboto;
+    color: blanchedalmond;
+    padding: right 8%;
+   }
+   
+h1 {
+    color: blue;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 36px;
+    background-image: url("images/logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline;
+
+
+    
+  }
+  nav {
+    color: blue;
+    background-color: #fdd9d9;
+    font-size: 12px;
+    float: right;
+    font-weight: bold;
+    position: fixed top;
+    /* padding-right: 4rem;
+    padding-left: -4rem; */
+    padding-left: 8%;
+  }
+  
+  nav li {
+    display: inline;
+    font-size: 20px;
+    padding: 20px;
+    float: right;
+    text-decoration: none;
+    color: blue;
+  }
+  a:link {
+    text-decoration: none;
+  }
+  
+#body{
+font-family: Noto Serif;
+font-style: italic;
+font-weight: bold;
+font-size: 18px;
+line-height: 25px;
+align-items: center;
+
+color: #380606;
+}
+.footer {
+    background-position: center;
+    background-color: #f0b3b3;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    color: blue;
+    padding-top: 10px;
+    
+  }
