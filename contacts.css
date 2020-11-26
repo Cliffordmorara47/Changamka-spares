@@ -1,8 +1,49 @@
 body{
     background-color: #F3EAC2;
+    overflow-y:scroll;
+    overflow-x: hidden;
 }
 
-h1{
+
+h1 {
+    color: blue;
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 36px;
+    background-image: url("images/logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline;
+    padding-left: 8%;
+    padding-right: 10%;
+   
+  }
+  nav {
+    color: blue;
+    background-color: #fdd9d9;
+    font-size: 12px;
+    float: right;
+    width: 100%;
+    font-weight: bold;
+    position: fixed top;
+  }
+  
+  nav li {
+    display: inline;
+    font-size: 20px;
+    padding: 20px;
+    float: right;
+    text-decoration: none;
+    color: blue;
+  }
+  a:link {
+    text-decoration: none;
+  }
+  
+
+
+h2{
     color: black;
     font-weight: bold;
     font-size: 36px;
@@ -39,3 +80,18 @@ input[type=submit]{
     padding: 20px;
     margin-left: 5%;
 }
+.footer {
+    background-position: center;
+    background-color: #f0b3b3;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    color: blue;
+    padding-top: 10px;
+    
+  }
+  
+  
